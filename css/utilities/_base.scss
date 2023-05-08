@@ -1,4 +1,20 @@
-$green: #00FFCA;
-$sky-blue: #05BFDB;
-$blue: #088395;
-$dark-blue: #0A4D68;
+@use "../utilities/variables" as *;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+body{
+    font-family: $font;
+}
