@@ -1,0 +1,14 @@
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
+
+.footer{
+    &__social-pages{
+        ul{            
+                @include flex(space-between,center,column);
+        }
+        img{
+
+            width:10%;
+        }
+    }
+}
