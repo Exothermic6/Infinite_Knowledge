@@ -1,0 +1,23 @@
+@use "../../utilities/mixins" as *;
+
+.about{
+    @include flex(space-between,flex-start);
+    &__right{
+        font-size: 1.5rem;
+        width: 40%;
+        margin: 0 auto;
+        h2{
+            text-align: left;
+            margin: 1em 0;
+        }&__qualities{
+            padding: 1em 0;
+            @include flex(center,flex-start, column);
+            gap: 1em;
+            div{
+                @include flex(flex-start, center);
+                gap: 1em;
+            }
+        }
+    }
+
+}
