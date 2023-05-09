@@ -1,22 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
-
-ul li {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  cursor: pointer;
-}
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
 
 .container {
   background-image: url("../../../images/john-schnobrich-2FPjlAyMQTA-unsplash.jpg");
@@ -28,28 +11,23 @@ a {
   margin: 0 auto;
   display: flex;
 }
-
 .detail__container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row;
+  @include flex(space-around,center);
   text-align: center;
   padding: 10em;
   width: 100%;
   color: white;
   margin: 0 auto;
+  div{
+    width: 100%;
+  }
+ 
 }
-.detail__container div {
-  width: 100%;
-}
-
 .card {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 input {
   width: 100%;
   padding: 2em;
