@@ -2,7 +2,11 @@
 @use "./utilities/mixins";
 @use "./utilities/variables";
 
+@use "./pages/contact/section"
+
+
 @use "./pages/layout/nav";
 @use "./pages/layout/footer";
 @use "./pages/Home/hero";
 @use "./pages/AboutUs/section";
+

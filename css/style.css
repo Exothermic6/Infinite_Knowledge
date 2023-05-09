@@ -16,6 +16,47 @@ ul li {
 a {
   text-decoration: none;
   cursor: pointer;
+}
+
+.container {
+  background-image: url("../../../images/john-schnobrich-2FPjlAyMQTA-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.detail__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  padding: 10em;
+  width: 100%;
+  color: white;
+  margin: 0 auto;
+}
+.detail__container div {
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  padding: 2em;
+  margin: 2em;
+  border-radius: 10px;
+  border: none;
+=======
   color: black;
 }
 
