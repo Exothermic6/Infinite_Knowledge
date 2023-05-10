@@ -196,6 +196,13 @@ input {
   margin-top: -5em;
 }
 
+.shop {
+  text-align: center;
+}
+.shop h2 {
+  padding: 1em;
+  font-size: 2rem;
+}
 .shop__hero {
   display: flex;
   justify-content: center;
@@ -212,4 +219,23 @@ input {
 }
 .shop__hero h3 {
   font-size: 4rem;
+}
+.shop__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  padding-top: 1em;
+}
+.shop__search {
+  width: 30%;
+  background-color: aquamarine;
+}
+.shop__searchinput[type=text] {
+  border: 2px solid black;
+  background-color: aqua;
+}
+.shop__search button {
+  text-align: left;
 }
