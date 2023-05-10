@@ -98,22 +98,15 @@ input {
 }
 .footer__container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row;
 }
-.footer__social-pages {
-  text-align: left;
-}
 .footer__social-pages ul {
-  text-align: left;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-}
-.footer__social-pages ul li {
-  text-align: left;
 }
 .footer__social-pages img {
   width: 10%;

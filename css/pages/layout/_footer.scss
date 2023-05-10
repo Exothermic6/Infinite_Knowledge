@@ -4,17 +4,11 @@
 .footer{
     background-color: $dark-blue;
     &__container{
-        @include flex(space-between,center); 
+        @include flex(space-around,center); 
     }
     &__social-pages{
-        text-align:left;
         ul{           
-            text-align: left; 
                 @include flex(space-between,center,column);
-                li{
-                    text-align: left;
-
-                }
         }
         img{
 
