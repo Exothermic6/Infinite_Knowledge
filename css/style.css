@@ -239,3 +239,30 @@ input {
 .shop__search button {
   text-align: left;
 }
+
+.login__container {
+  margin-top: 8em;
+  box-shadow: 2px 3px 5px 2px grey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.login__container__left {
+  width: 40%;
+  height: 60vh;
+  background-color: #05BFDB;
+}
+.login__container__form {
+  text-align: center;
+}
+.login__container__form h2 {
+  margin: 1.5em;
+}
+.login__container__form form p {
+  padding: 0.1em;
+}
+.login__container__form form input {
+  border: 1px solid black;
+  padding: 1em;
+}
