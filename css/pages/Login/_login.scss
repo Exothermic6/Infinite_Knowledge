@@ -1,0 +1,33 @@
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as*;
+
+
+
+.login{
+    &__container{
+        margin-top: 8em; 
+        box-shadow: 2px 3px 5px 2px grey;
+        @include flex(space-around,center);
+        &__left{
+            width: 40%;
+            height: 60vh;
+            background-color: $sky-blue;
+        }
+        &__form{
+            text-align: center;
+            h2{
+                margin: 1.5em;
+            }
+            form{
+                p{
+                    padding: 0.1em;
+                }
+                input{
+                    border: 1px solid black;
+                    padding: 1em;
+                }
+
+            }
+        }
+    }
+}

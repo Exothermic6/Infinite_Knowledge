@@ -196,6 +196,13 @@ input {
   margin-top: -5em;
 }
 
+.shop {
+  text-align: center;
+}
+.shop h2 {
+  padding: 1em;
+  font-size: 2rem;
+}
 .shop__hero {
   display: flex;
   justify-content: center;
@@ -212,4 +219,50 @@ input {
 }
 .shop__hero h3 {
   font-size: 4rem;
+}
+.shop__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  padding-top: 1em;
+}
+.shop__search {
+  width: 30%;
+  background-color: aquamarine;
+}
+.shop__searchinput[type=text] {
+  border: 2px solid black;
+  background-color: aqua;
+}
+.shop__search button {
+  text-align: left;
+}
+
+.login__container {
+  margin-top: 8em;
+  box-shadow: 2px 3px 5px 2px grey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.login__container__left {
+  width: 40%;
+  height: 60vh;
+  background-color: #05BFDB;
+}
+.login__container__form {
+  text-align: center;
+}
+.login__container__form h2 {
+  margin: 1.5em;
+}
+.login__container__form form p {
+  padding: 0.1em;
+}
+.login__container__form form input {
+  border: 1px solid black;
+  padding: 1em;
 }
