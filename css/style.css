@@ -195,3 +195,21 @@ input {
   height: 20vh;
   margin-top: -5em;
 }
+
+.shop__hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../../../images/shop3.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+}
+.shop__hero h2 {
+  font-size: 4rem;
+}
+.shop__hero h3 {
+  font-size: 4rem;
+}
