@@ -2,11 +2,14 @@
 @use "./utilities/mixins";
 @use "./utilities/variables";
 
-@use "./pages/contact/section"
+@use "./pages/contact/contact-us";
 
 
 @use "./pages/layout/nav";
 @use "./pages/layout/footer";
-@use "./pages/Home/hero";
-@use "./pages/AboutUs/section";
+@use "./pages/Home/home";
+@use "./pages/AboutUs/about-us";
+@use "./pages/Home/testimonials";
+@use "./pages/Shop/shop";
+
 

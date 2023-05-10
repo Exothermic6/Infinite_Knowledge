@@ -1,7 +1,8 @@
 @use "../../utilities/variables" as *;
 @use "../../utilities/mixins" as *;
 
-.container {
+
+.detail__container {
   background-image: url("../../../images/john-schnobrich-2FPjlAyMQTA-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -10,8 +11,6 @@
   width: 80%;
   margin: 0 auto;
   display: flex;
-}
-.detail__container {
   @include flex(space-around,center);
   text-align: center;
   padding: 10em;
