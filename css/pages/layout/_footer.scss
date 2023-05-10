@@ -2,13 +2,37 @@
 @use "../../utilities/variables" as *;
 
 .footer{
+    background-color: $dark-blue;
+    &__container{
+        @include flex(space-between,center); 
+    }
     &__social-pages{
-        ul{            
+        text-align:left;
+        ul{           
+            text-align: left; 
                 @include flex(space-between,center,column);
+                li{
+                    text-align: left;
+
+                }
         }
         img{
 
             width:10%;
         }
+    }
+    &__quick-links{
+        ul li{
+            a{
+                &:not(first-child):hover{
+                    color: white;
+                }
+                    button{
+                        background-color: $blue;
+                        margin:  0.5em 0;
+                    }
+                
+            }
+    }
     }
 }

@@ -16,9 +16,23 @@ ul li {
 a {
   text-decoration: none;
   cursor: pointer;
+  color: black;
 }
 
-.container {
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn {
+  border-radius: 50px;
+  padding: 1em;
+  border: none;
+  background-color: #0A4D68;
+  color: white;
+  cursor: progress;
+}
+
+.detail__container {
   background-image: url("../../../images/john-schnobrich-2FPjlAyMQTA-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -27,9 +41,6 @@ a {
   width: 80%;
   margin: 0 auto;
   display: flex;
-}
-
-.detail__container {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -56,21 +67,6 @@ input {
   margin: 2em;
   border-radius: 10px;
   border: none;
-=======
-  color: black;
-}
-
-body {
-  font-family: "Montserrat", sans-serif;
-}
-
-.btn {
-  border-radius: 50px;
-  padding: 1em;
-  border: none;
-  background-color: #0A4D68;
-  color: white;
-  cursor: progress;
 }
 
 .nav {
@@ -88,21 +84,49 @@ body {
 .nav__container ul li {
   padding: 2em;
 }
+.nav__container ul li a:hover {
+  background-color: #0A4D68;
+  padding: 1em;
+  border-radius: 50px;
+}
 .nav__container ul li button {
   font-size: 1rem;
 }
 
+.footer {
+  background-color: #0A4D68;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.footer__social-pages {
+  text-align: left;
+}
 .footer__social-pages ul {
+  text-align: left;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
 }
+.footer__social-pages ul li {
+  text-align: left;
+}
 .footer__social-pages img {
   width: 10%;
 }
+.footer__quick-links ul li a:not(first-child):hover {
+  color: white;
+}
+.footer__quick-links ul li a button {
+  background-color: #088395;
+  margin: 0.5em 0;
+}
 
-.hero {
+.home {
   background-image: url("../../../images/ishaq-robin-caND1D-Kh9Y-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -145,4 +169,36 @@ body {
   align-items: center;
   flex-direction: row;
   gap: 1em;
+}
+
+.testimonials__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 1em;
+}
+.testimonials__container__article--1, .testimonials__container__article--2, .testimonials__container__article--3 {
+  width: 30%;
+  box-shadow: 2px 2px 4px grey;
+  border: 1px solid grey;
+  border-radius: 7px;
+  font-size: 1.2rem;
+}
+.testimonials__container p {
+  padding: 1em;
+}
+.testimonials__container__article__img img {
+  border: 4px solid white;
+  width: 16vh;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px solid black;
+  background-size: cover;
+}
+.testimonials__container__article__background {
+  background-image: url("../../../images/curve.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20vh;
+  margin-top: -5em;
 }
