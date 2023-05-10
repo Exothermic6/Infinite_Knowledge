@@ -1,6 +1,4 @@
-// @use "../utilities/variables" as *;
-@use "variables" as *;
-
+@use "../utilities/variables" as *;
 *{
     margin: 0;
     padding: 0;
@@ -16,7 +14,8 @@ ul li{
 a{
     text-decoration: none;
     cursor: pointer;
+    color: black;
 }
-// body{
-//     font-family: $font;
-// }
+body{
+    font-family: $font-1;
+}

@@ -1,0 +1,13 @@
+@use "../../utilities/mixins" as *;
+
+.hero{
+    background-image: url("../../../images/ishaq-robin-caND1D-Kh9Y-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    color: white;
+    font-size: 1.5em;
+    @include flex(center,center,column);
+}
+
