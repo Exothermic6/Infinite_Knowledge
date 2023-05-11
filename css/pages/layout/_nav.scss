@@ -1,0 +1,27 @@
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
+
+.nav{
+    background-color: $sky-blue;
+    &__container{
+        ul{
+            @include flex(space-between,center);
+            display: flex;
+            font-family: $font-2;
+            font-size: 1.5rem;
+            li{
+                padding: 2em;
+                a{
+                    &:hover{
+                        background-color: $dark-blue;
+                        padding: 1em;
+                        border-radius: 50px;
+                    }
+                }
+                button{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    }

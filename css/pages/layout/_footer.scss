@@ -1,0 +1,31 @@
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
+
+.footer{
+    background-color: $dark-blue;
+    &__container{
+        @include flex(space-around,center); 
+    }
+    &__social-pages{
+        ul{           
+                @include flex(space-between,center,column);
+        }
+        img{
+            width:10%;
+        }
+    }
+    &__quick-links{
+        ul li{
+            a{
+                &:not(first-child):hover{
+                    color: white;
+                }
+                    button{
+                        background-color: $blue;
+                        margin:  0.5em 0;
+                    }
+                
+            }
+    }
+    }
+}

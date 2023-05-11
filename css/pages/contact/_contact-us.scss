@@ -1,0 +1,57 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+
+<<<<<<< HEAD
+.contact {
+=======
+
+.detail__container {
+>>>>>>> 65ba3b1340064337acd773dd64f8e8f3c068812a
+  background-image: url("../../../images/john-schnobrich-2FPjlAyMQTA-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+<<<<<<< HEAD
+}
+.detail__contact {
+  @include flex(space-around, center);
+=======
+  @include flex(space-around,center);
+>>>>>>> 65ba3b1340064337acd773dd64f8e8f3c068812a
+  text-align: center;
+  padding: 10em;
+  width: 100%;
+  color: white;
+  margin: 0 auto;
+  &__left{
+    h1{
+    font-size: 4em;
+    }
+    button{
+      padding: 2em;
+      border-radius: 2em;
+      background-color: #05BFDB;
+    }
+  }
+  div {
+    width: 100%;
+  }
+}
+
+ 
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+input {
+  width: 100%;
+  padding: 2em;
+  margin: 2em;
+  border-radius: 10px;
+  border: none;
+}

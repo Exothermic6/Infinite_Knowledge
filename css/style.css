@@ -1,0 +1,374 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+<<<<<<< HEAD
+.services {
+  text-align: center;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.services__container__start {
+  text-align: center;
+  font-size: 1em;
+  padding-bottom: 2em;
+}
+.services .service__container {
+  width: 100%;
+  height: 60vh;
+}
+.services .online__reading {
+  text-align: center;
+  width: 100%;
+  padding-top: 1em;
+}
+.services .online__reading__img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 10px;
+  padding: 4em;
+}
+.services .online__reading__content {
+  font-size: 1em;
+}
+.services .online__reading p {
+  font-size: 1em;
+}
+
+.shop {
+  padding-top: 2em;
+  text-align: center;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../../../images/pexels-cottonbro-studio-4865737.jpg);
+}
+o .shop__image {
+  width: 100%;
+  border-radius: 2em;
+}
+.shop__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 1em;
+  font-size: 2em;
+}
+.shop__content__right {
+  width: 80vw;
+}
+.shop__content__right form {
+  padding: 2em;
+  border-radius: 2em;
+}
+.shop__content__right form button {
+  padding: 2em;
+  border-radius: 2em;
+  background-color: #05bfdb;
+}
+
+.direction {
+  background-color: #0a4d68;
+  padding-bottom: 2em;
+  text-align: center;
+  padding-top: 2em;
+  color: white;
+}
+.direction iframe {
+  width: 100%;
+  height: 50vh;
+}
+.direction__content {
+  font-size: 1em;
+  padding-bottom: 2em;
+}
+
+.contact {
+=======
+.btn {
+  border-radius: 50px;
+  padding: 1em;
+  border: none;
+  background-color: #0A4D68;
+  color: white;
+  cursor: progress;
+}
+
+.detail__container {
+>>>>>>> 65ba3b1340064337acd773dd64f8e8f3c068812a
+  background-image: url("../../../images/john-schnobrich-2FPjlAyMQTA-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+<<<<<<< HEAD
+}
+
+.detail__contact {
+=======
+>>>>>>> 65ba3b1340064337acd773dd64f8e8f3c068812a
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  padding: 10em;
+  width: 100%;
+  color: white;
+  margin: 0 auto;
+}
+.detail__contact__left h1 {
+  font-size: 4em;
+}
+.detail__contact__left button {
+  padding: 2em;
+  border-radius: 2em;
+  background-color: #05BFDB;
+}
+.detail__contact div {
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  padding: 2em;
+  margin: 2em;
+  border-radius: 10px;
+  border: none;
+}
+
+<<<<<<< HEAD
+.signup {
+  background-image: url(../../../images/);
+=======
+.nav {
+  background-color: #05BFDB;
+}
+.nav__container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.5rem;
+}
+.nav__container ul li {
+  padding: 2em;
+}
+.nav__container ul li a:hover {
+  background-color: #0A4D68;
+  padding: 1em;
+  border-radius: 50px;
+}
+.nav__container ul li button {
+  font-size: 1rem;
+}
+
+.footer {
+  background-color: #0A4D68;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.footer__social-pages ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.footer__social-pages img {
+  width: 10%;
+}
+.footer__quick-links ul li a:not(first-child):hover {
+  color: white;
+}
+.footer__quick-links ul li a button {
+  background-color: #088395;
+  margin: 0.5em 0;
+}
+
+.home {
+  background-image: url("../../../images/ishaq-robin-caND1D-Kh9Y-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  color: white;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.about__right {
+  font-size: 1.5rem;
+  width: 40%;
+  margin: 0 auto;
+}
+.about__right h2 {
+  text-align: left;
+  margin: 1em 0;
+}
+.about__right__qualities {
+  padding: 1em 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1em;
+}
+.about__right__qualities div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.testimonials__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 1em;
+}
+.testimonials__container__article--1, .testimonials__container__article--2, .testimonials__container__article--3 {
+  width: 30%;
+  box-shadow: 2px 2px 4px grey;
+  border: 1px solid grey;
+  border-radius: 7px;
+  font-size: 1.2rem;
+}
+.testimonials__container p {
+  padding: 1em;
+}
+.testimonials__container__article__img img {
+  border: 4px solid white;
+  width: 16vh;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px solid black;
+  background-size: cover;
+}
+.testimonials__container__article__background {
+  background-image: url("../../../images/curve.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20vh;
+  margin-top: -5em;
+}
+
+.shop {
+  text-align: center;
+}
+.shop h2 {
+  padding: 1em;
+  font-size: 2rem;
+}
+.shop__hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../../../images/shop3.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+}
+.shop__hero h2 {
+  font-size: 4rem;
+}
+.shop__hero h3 {
+  font-size: 4rem;
+}
+.shop__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  padding-top: 1em;
+}
+.shop__search {
+  width: 30%;
+  background-color: aquamarine;
+}
+.shop__searchinput[type=text] {
+  border: 2px solid black;
+  background-color: aqua;
+}
+.shop__search button {
+  text-align: left;
+}
+
+.login__container {
+  margin-top: 8em;
+  box-shadow: 2px 3px 5px 2px grey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.login__container__left {
+  width: 40%;
+  height: 60vh;
+  background-color: #05BFDB;
+}
+.login__container__form {
+  text-align: center;
+}
+.login__container__form h2 {
+  margin: 1.5em;
+}
+.login__container__form form p {
+  padding: 0.1em;
+}
+.login__container__form form input {
+  border: 1px solid black;
+  padding: 1em;
+>>>>>>> 65ba3b1340064337acd773dd64f8e8f3c068812a
+}
