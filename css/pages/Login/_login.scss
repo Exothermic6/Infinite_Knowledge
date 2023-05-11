@@ -31,6 +31,18 @@
             width: 20%;
             margin: 0 auto;
             text-align: center;
+            &__sign-up{
+                margin-top: 4em;
+                text-align: center;
+                h2{
+                    padding: 2em;
+                }
+                form{
+                    input{
+                        width: 40%;
+                    }
+                }
+            }
             h2{
                 margin: 1.5em;
             }

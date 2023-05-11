@@ -11,21 +11,20 @@
         }
     }
    }
-   &__right{
-    @include flex(center,center);
-   }
-    background-color: $sky-blue;
+   
     &__container__left{
         ul{
-            display: flex;
+            @include flex(center,center);
+
             font-family: $font-2;
             li{
-                padding: 0 1em;
                 a{
+                    padding: 1em;
+                    
                     &:hover{
                         background-color: $dark-blue;
-                        padding: 1em;
                         border-radius: 50px;
+                        color: white;
                     }
                 }
                 button{
@@ -35,3 +34,4 @@
         }
     }
     }
+    

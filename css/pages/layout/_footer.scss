@@ -2,6 +2,7 @@
 @use "../../utilities/variables" as *;
 
 .footer{
+    color: white;
     padding: 3em 0;
     background-color: $dark-blue;
     &__container{
@@ -18,11 +19,12 @@
         }
     }
     &__quick-links{
+        color: white;
         padding-right: 3em;
         ul li{
             a{
                 &:not(first-child):hover{
-                    color: white;
+                    color: black;
                 }
                     button{
                         background-color: $blue;
