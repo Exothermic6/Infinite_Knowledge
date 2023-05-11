@@ -23,7 +23,15 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-<<<<<<< HEAD
+.btn {
+  border-radius: 50px;
+  padding: 1em;
+  border: none;
+  background-color: #0A4D68;
+  color: white;
+  cursor: progress;
+}
+
 .services {
   text-align: center;
   padding: 2em;
@@ -107,19 +115,7 @@ o .shop__image {
   padding-bottom: 2em;
 }
 
-.contact {
-=======
-.btn {
-  border-radius: 50px;
-  padding: 1em;
-  border: none;
-  background-color: #0A4D68;
-  color: white;
-  cursor: progress;
-}
-
 .detail__container {
->>>>>>> 65ba3b1340064337acd773dd64f8e8f3c068812a
   background-image: url("../../../images/john-schnobrich-2FPjlAyMQTA-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -128,12 +124,6 @@ o .shop__image {
   width: 100%;
   margin: 0 auto;
   display: flex;
-<<<<<<< HEAD
-}
-
-.detail__contact {
-=======
->>>>>>> 65ba3b1340064337acd773dd64f8e8f3c068812a
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -144,15 +134,15 @@ o .shop__image {
   color: white;
   margin: 0 auto;
 }
-.detail__contact__left h1 {
+.detail__container__left h1 {
   font-size: 4em;
 }
-.detail__contact__left button {
+.detail__container__left button {
   padding: 2em;
   border-radius: 2em;
   background-color: #05BFDB;
 }
-.detail__contact div {
+.detail__container div {
   width: 100%;
 }
 
@@ -170,10 +160,10 @@ input {
   border: none;
 }
 
-<<<<<<< HEAD
 .signup {
   background-image: url(../../../images/);
-=======
+}
+
 .nav {
   background-color: #05BFDB;
 }
@@ -217,22 +207,6 @@ input {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-}
-.footer__social-pages ul li {
-  padding-left: 7em;
-}
-.footer__social-pages img {
-  width: 5%;
-}
-.footer__quick-links {
-  padding-right: 3em;
-}
-.footer__quick-links ul li a:not(first-child):hover {
-  color: white;
-}
-.footer__quick-links ul li a button {
-  background-color: #088395;
-  margin: 0.5em 0;
 }
 
 .home {
@@ -419,5 +393,4 @@ input {
 .login__container__form form input {
   border: 1px solid black;
   padding: 1em;
->>>>>>> 65ba3b1340064337acd773dd64f8e8f3c068812a
 }

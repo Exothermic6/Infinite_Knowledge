@@ -1,12 +1,8 @@
 @use "../../utilities/variables" as *;
 @use "../../utilities/mixins" as *;
 
-<<<<<<< HEAD
-.contact {
-=======
 
 .detail__container {
->>>>>>> 65ba3b1340064337acd773dd64f8e8f3c068812a
   background-image: url("../../../images/john-schnobrich-2FPjlAyMQTA-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -15,13 +11,7 @@
   width: 100%;
   margin: 0 auto;
   display: flex;
-<<<<<<< HEAD
-}
-.detail__contact {
-  @include flex(space-around, center);
-=======
   @include flex(space-around,center);
->>>>>>> 65ba3b1340064337acd773dd64f8e8f3c068812a
   text-align: center;
   padding: 10em;
   width: 100%;

@@ -1,35 +1,34 @@
 @use "../../utilities/mixins" as *;
 @use "../../utilities/variables" as *;
 
-.footer{
-    padding: 3em 0;
-    background-color: $dark-blue;
-    &__container{
-        @include flex(space-between,center); 
-    }
-    &__social-pages{
-        ul{
-            li{
-                padding-left: 7em;
-            }
-        }
-        img{
-            width:5%;
-        }
-    }
-    &__quick-links{
-        padding-right: 3em;
-        ul li{
-            a{
-                &:not(first-child):hover{
-                    color: white;
-                }
-                    button{
-                        background-color: $blue;
-                        margin:  0.5em 0;
-                    }
-                
-            }
-    }
-    }
+.footer {
+  padding: 3em 0;
+  background-color: $dark-blue;
+  &__container {
+    @include flex(space-between, center);
+  }
+//   &__social-pages {
+//     ul {
+//       li {
+//         padding-left: 7em;
+//       }
+//     }
+//     img {
+//       width: 5%;
+//     }
+//   }
+//   &__quick-links {
+//     padding-right: 3em;
+//     ul li {
+//       a {
+//         &:not(first-child):hover {
+//           color: white;
+//         }
+//         button {
+//           background-color: $blue;
+//           margin: 0.5em 0;
+//         }
+//       }
+//     }
+//   }
 }
