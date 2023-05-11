@@ -7,27 +7,37 @@
   background-position: center;
   background-size: cover;
   height: 100vh;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
 }
 .detail__contact {
-  @include flex(space-around,center);
+  @include flex(space-around, center);
   text-align: center;
   padding: 10em;
   width: 100%;
   color: white;
   margin: 0 auto;
-  div{
+  &__left{
+    h1{
+    font-size: 4em;
+    }
+    button{
+      padding: 2em;
+      border-radius: 2em;
+      background-color: #05BFDB;
+    }
+  }
+  div {
     width: 100%;
   }
- 
 }
+
+ 
 .card {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 input {
   width: 100%;
