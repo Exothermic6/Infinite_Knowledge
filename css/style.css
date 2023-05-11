@@ -69,16 +69,16 @@ body {
   font-size: 1em;
 }
 
-.shop {
+.shope {
   padding-top: 2em;
   text-align: center;
   background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../../../images/pexels-cottonbro-studio-4865737.jpg);
 }
-o .shop__image {
+o .shope__image {
   width: 100%;
   border-radius: 2em;
 }
-.shop__content {
+.shope__content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -86,14 +86,14 @@ o .shop__image {
   padding-top: 1em;
   font-size: 2em;
 }
-.shop__content__right {
+.shope__content__right {
   width: 80vw;
 }
-.shop__content__right form {
+.shope__content__right form {
   padding: 2em;
   border-radius: 2em;
 }
-.shop__content__right form button {
+.shope__content__right form button {
   padding: 2em;
   border-radius: 2em;
   background-color: #05bfdb;
@@ -164,9 +164,6 @@ input {
   background-image: url(../../../images/);
 }
 
-.nav {
-  background-color: #05BFDB;
-}
 .nav__container {
   display: flex;
   justify-content: space-between;
@@ -176,29 +173,27 @@ input {
 .nav__container div img {
   padding: 1em;
 }
-.nav__right {
+.nav__container__left ul {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-}
-.nav__container__left ul {
-  display: flex;
   font-family: "Public Sans", sans-serif;
 }
-.nav__container__left ul li {
-  padding: 0 1em;
+.nav__container__left ul li a {
+  padding: 1em;
 }
 .nav__container__left ul li a:hover {
   background-color: #0A4D68;
-  padding: 1em;
   border-radius: 50px;
+  color: white;
 }
 .nav__container__left ul li button {
   font-size: 1rem;
 }
 
 .footer {
+  color: white;
   padding: 3em 0;
   background-color: #0A4D68;
 }
@@ -208,9 +203,26 @@ input {
   align-items: center;
   flex-direction: row;
 }
+.footer__social-pages ul li {
+  padding-left: 7em;
+}
+.footer__social-pages img {
+  width: 5%;
+}
+.footer__quick-links {
+  color: white;
+  padding-right: 3em;
+}
+.footer__quick-links ul li a:not(first-child):hover {
+  color: black;
+}
+.footer__quick-links ul li a button {
+  background-color: #088395;
+  margin: 0.5em 0;
+}
 
 .home {
-  background-image: url("../../../images/ishaq-robin-caND1D-Kh9Y-unsplash.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../../images/ishaq-robin-caND1D-Kh9Y-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -221,6 +233,16 @@ input {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.home__company {
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.home__company h2 {
+  padding: 1em;
 }
 
 .about {
@@ -383,6 +405,16 @@ input {
   width: 20%;
   margin: 0 auto;
   text-align: center;
+}
+.login__container__form__sign-up {
+  margin-top: 4em;
+  text-align: center;
+}
+.login__container__form__sign-up h2 {
+  padding: 2em;
+}
+.login__container__form__sign-up form input {
+  width: 40%;
 }
 .login__container__form h2 {
   margin: 1.5em;
