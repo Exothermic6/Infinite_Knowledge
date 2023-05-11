@@ -23,16 +23,123 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.part {
+.services {
+  text-align: left;
+  background-color: lightslategray;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  background-image: url(../../../images/radek-grzybowski-eBRTYyjwpRY-unsplash.jpg);
+}
+.services__container__start {
+  text-align: center;
+  font-size: 2em;
+}
+.services .service__container {
+  width: 100%;
+  height: 60vh;
+}
+.services .online__reading {
+  text-align: center;
+  background-color: #05bfdb;
+  width: 100%;
+  padding-top: 2em;
+}
+.services .online__reading__img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 10px;
+  padding: 4em;
+}
+.services .online__reading__content {
+  font-size: 2em;
+}
+
+.shop {
+  padding-top: 2em;
+  text-align: center;
+  background-image: url(../../../images/pexels-cottonbro-studio-4865737.jpg);
+}
+.shop__image {
+  width: 100%;
+  border-radius: 2em;
+}
+.shop__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 1em;
+  font-size: 2em;
+}
+.shop__content__right {
+  width: 50vw;
+}
+.shop__content__right form {
+  padding: 2em;
+  border-radius: 2em;
+}
+.shop__content__right form button {
+  padding: 2em;
+  border-radius: 2em;
+  background-color: #05bfdb;
+}
+
+.direction {
+  background-color: #0a4d68;
+  padding-bottom: 2em;
+  text-align: center;
+}
+.direction iframe {
+  width: 100vw;
+  height: 50vh;
+}
+.direction__content {
+  font-size: 2em;
+}
+
+.contact {
+  background-image: url("../../../images/john-schnobrich-2FPjlAyMQTA-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.detail__contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  padding: 10em;
+  width: 100%;
+  color: white;
+  margin: 0 auto;
+}
+.detail__contact div {
   width: 100%;
 }
-.part .card {
-  width: 50%;
-  text-align: center;
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  padding: 2em;
+  margin: 2em;
+  border-radius: 10px;
+  border: none;
+}
+
+.signup {
+  background-image: url(../../../images/);
 }
