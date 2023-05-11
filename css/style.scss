@@ -1,6 +1,7 @@
 @use "./utilities/base";
 @use "./utilities/mixins";
 @use "./utilities/variables";
+<<<<<<< HEAD
 
 @use "./pages/services/servives";
 @use "./pages/contact/contact-us";
@@ -8,4 +9,17 @@
 
 
 
+=======
+
+@use "./pages/contact/contact-us";
+
+
+@use "./pages/layout/nav";
+@use "./pages/layout/footer";
+@use "./pages/Home/home";
+@use "./pages/AboutUs/about-us";
+@use "./pages/Home/testimonials";
+@use "./pages/Shop/shop";
+@use "./pages/Login/login";
+>>>>>>> 65ba3b1340064337acd773dd64f8e8f3c068812a
 

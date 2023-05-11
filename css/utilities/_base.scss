@@ -1,4 +1,13 @@
+<<<<<<< HEAD
 @use "../utilities/variables" as *;
+=======
+
+// @use "../utilities/variables" as *;
+@use "variables" as *;
+@use "../utilities/variables" as *;
+
+
+>>>>>>> 65ba3b1340064337acd773dd64f8e8f3c068812a
 *{
     margin: 0;
     padding: 0;
@@ -16,6 +25,26 @@ a{
     cursor: pointer;
     color: black;
 }
+<<<<<<< HEAD
 body{
     font-family: $font-1;
 }
+=======
+
+// body{
+//     font-family: $font;
+// }
+
+body{
+    font-family: $font-1;
+}
+.btn{
+    border-radius: 50px;;
+    padding: 1em;
+    border: none;
+    background-color: $dark-blue;
+    color: white;
+    cursor:progress;
+}
+
+>>>>>>> 65ba3b1340064337acd773dd64f8e8f3c068812a
