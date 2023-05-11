@@ -4,16 +4,32 @@
 
 
 .login{
+    @include flex(space-between,center);
+    &__left{
+        width: 50%;
+        height: 100vh;
+       background-color: $sky-blue;
+    }
+    &__right{
+        width: 50%;
+        height: 100vh;
+        background-color: $sky-blue;
+    }
     &__container{
+        margin-left: -60em;
+        width: 90vw;
+        height: 80vh;
         margin-top: 8em; 
-        box-shadow: 2px 3px 5px 2px grey;
-        @include flex(space-around,center);
+        box-shadow: 4px 4px 5px 10px rgba(110, 109, 109, 0.781);
+        @include flex(space-between,center);
         &__left{
-            width: 40%;
-            height: 60vh;
+            width: 50%;
+            height: 80vh;
             background-color: $sky-blue;
         }
         &__form{
+            width: 20%;
+            margin: 0 auto;
             text-align: center;
             h2{
                 margin: 1.5em;

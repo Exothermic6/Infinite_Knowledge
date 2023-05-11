@@ -2,15 +2,25 @@
 @use "../../utilities/variables" as *;
 
 .nav{
-    background-color: $sky-blue;
     &__container{
+        @include flex(space-between,center);
+    
+    div{
+        img{
+            padding: 1em;
+        }
+    }
+   }
+   &__right{
+    @include flex(center,center);
+   }
+    background-color: $sky-blue;
+    &__container__left{
         ul{
-            @include flex(space-between,center);
             display: flex;
             font-family: $font-2;
-            font-size: 1.5rem;
             li{
-                padding: 2em;
+                padding: 0 1em;
                 a{
                     &:hover{
                         background-color: $dark-blue;
