@@ -2,6 +2,7 @@
 @use "../../utilities/variables" as *;
 
 .shop{
+  background-color: $sky-blue;
    text-align: center;
    h2{
     padding: 1em;
@@ -9,11 +10,11 @@
    }
     &__hero{
         @include flex(center,center,column);
-        background-image: url("../../../images/shop3.webp");
+        background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)),url("../../../images/shop3.webp");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        height: 80vh;
+        height: 40vh;
         h2{
           font-size: 4rem;
         }
@@ -28,14 +29,30 @@
 
     }
     &__search{
-      width: 30%;
-      background-color: aquamarine;
-      &input[type=text]{
-        border: 2px solid black;
-        background-color: aqua;
+     form{
+      h4{
+        padding-top: 2em;
+      }
+          border-radius: 10px;          
+        }
+     
+      input{
+        font-size: 1em;
+        width: 50%;
+      }
       }
       button{
         text-align: left;
+        padding: 2.2em;
+        border-radius: 10px;
+        background-color: $dark-blue;
+        color: white;
+
+      }
+      select{
+        width: 10vw;
+        padding: 2em 2em;
+        border-radius: 10px;
+        margin-bottom: 2em;
       }
     }
-}

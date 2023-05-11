@@ -1,6 +1,7 @@
 @use "../../utilities/mixins" as *;
 
 .testimonials{
+    margin-bottom: 4em;
     &__container{
         @include flex(space-between,center);
         margin-top: 1em;
