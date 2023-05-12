@@ -10,13 +10,13 @@
 }
 .home{
     h2{
-        padding-bottom: 2em 0;
+        padding:1em;
     }
     button{
         margin: 3em 0;
         font-size: 1.5rem;
     }
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../../../images/ishaq-robin-caND1D-Kh9Y-unsplash.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url("https://raw.githubusercontent.com/Exothermic6/Infinite_Knowledge/master/images/ishaq-robin-caND1D-Kh9Y-unsplash.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -34,16 +34,17 @@
         padding: 1em 0;
     }
     button{
-        margin: 3em 0;
+        margin:2em 0;
         font-size: 1.5rem;
     }
+
 }
-.recomended{
+.recommended{
     text-align: center;
     margin-top: 3em;
     padding: 2em 0;
     h2{
-        font-size: 1.5em;
+        font-size: 2em;
     }
 
 }
