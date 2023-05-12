@@ -6,6 +6,19 @@
     padding: 3em 0;
     background-color: $dark-blue;
     &__container{
+        ul{
+            li{
+                padding: 0.7em 0;
+                img{
+                    padding: 0 1em;
+                }
+            }
+        }
+        div{
+            img{
+                border-radius: 3px solid white;
+            }
+        }
         @include flex(space-between,center); 
     }
     &__social-pages{
@@ -15,7 +28,7 @@
             }
         }
         img{
-            width:5%;
+            width: 12%;
         }
     }
     &__quick-links{
@@ -24,7 +37,7 @@
         ul li{
             a{
                 &:not(first-child):hover{
-                    color: black;
+                    color: white;
                 }
                     button{
                         background-color: $blue;
@@ -33,5 +46,10 @@
                 
             }
     }
+    }
+    &__address{
+        h2,p{
+            padding: 0.5em 0;
+        }
     }
 }
