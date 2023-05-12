@@ -152,6 +152,7 @@ body {
   margin: 0 auto;
 }
 .detail__container__left h1 {
+  text-align: center;
   font-size: 4em;
   text-align: center;
 }
@@ -182,11 +183,17 @@ input {
   background-image: url(../../../images/);
 }
 
+.nav {
+  width: 100%;
+}
 .nav__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  width: 80%;
+  background-color: #fff;
+  margin: 0 auto;
 }
 .nav__container div img {
   padding: 1em;
@@ -221,22 +228,41 @@ input {
   align-items: center;
   flex-direction: row;
 }
+.footer__container ul li {
+  padding: 0.7em 0;
+}
+.footer__container ul li img {
+  padding: 0 1em;
+}
+.footer__container div img {
+  border-radius: 3px solid white;
+}
 .footer__social-pages ul li {
   padding-left: 7em;
 }
 .footer__social-pages img {
-  width: 5%;
+  width: 12%;
 }
 .footer__quick-links {
   color: white;
   padding-right: 3em;
 }
 .footer__quick-links ul li a:not(first-child):hover {
-  color: black;
+  color: white;
 }
 .footer__quick-links ul li a button {
   background-color: #088395;
   margin: 0.5em 0;
+}
+.footer__address h2, .footer__address p {
+  padding: 0.5em 0;
+}
+
+.testimonials {
+  text-align: center;
+}
+.testimonials h2 {
+  font-size: 2em;
 }
 
 .home {
@@ -252,15 +278,30 @@ input {
   align-items: center;
   flex-direction: column;
 }
-.home__company {
-  padding: 2em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.home h2 {
+  padding-bottom: 2em 0;
 }
-.home__company h2 {
-  padding: 1em;
+.home button {
+  margin: 3em 0;
+  font-size: 1.5rem;
+}
+
+.mission-vision {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 4em;
+}
+.mission-vision h2 {
+  padding: 1em 0;
+}
+
+.recomended {
+  text-align: center;
+  margin-top: 3em;
+  padding: 2em 0;
+}
+.recomended h2 {
+  font-size: 1.5em;
 }
 .home button {
   margin: 3em 0;
@@ -365,7 +406,7 @@ input {
   align-items: center;
   flex-direction: row;
   text-align: center;
-  padding-top: 1em;
+  padding-top: 3em;
 }
 .shop__container__book--1 h3 {
   margin: 1em;

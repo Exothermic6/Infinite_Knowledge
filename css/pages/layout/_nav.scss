@@ -2,10 +2,14 @@
 @use "../../utilities/variables" as *;
 
 .nav{
+    width: 100%;
     &__container{
         @include flex(space-between,center);
 
-    
+        width: 80%;
+        background-color: #fff;
+        margin: 0 auto;
+
     div{
         img{
             padding: 1em;
@@ -20,8 +24,7 @@
             font-family: $font-2;
             li{
                 a{
-                    padding: 1em;
-                    
+                    padding: 1em;   
                     &:hover{
                         background-color: $dark-blue;
                         border-radius: 50px;
@@ -35,4 +38,3 @@
         }
     }
     }
-    
