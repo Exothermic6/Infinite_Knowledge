@@ -10,7 +10,7 @@
    }
     &__hero{
         @include flex(center,center,column);
-        background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)),url("../../../images/shop3.webp");
+        background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)),url("../../../images/shop3.webp");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -22,10 +22,47 @@
           font-size: 4rem;
         }
     }
+   
     &__container{
         @include flex(space-between,center);
         text-align: center;
         padding-top: 3em;
+
+        &__book--1{
+h3{
+  margin:1em;
+}
+
+ }
+
+
+
+ &__book--2{
+  h3{
+    margin:1em;
+  }
+  
+   }
+
+
+   &__book--3{
+    h3{
+      margin:1em;
+    }
+    
+     }
+
+
+
+     &__book--4{
+      h3{
+        margin:1em;
+      }
+      
+       }
+      
+    
+  
 
     }
     &__search{
