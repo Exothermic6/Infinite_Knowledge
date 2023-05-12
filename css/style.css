@@ -45,6 +45,10 @@ body {
   font-size: 1em;
   padding-bottom: 2em;
 }
+.services h1 {
+  font-size: 2rem;
+  margin: 1em 0;
+}
 .services .service__container {
   width: 100%;
   height: 60vh;
@@ -62,11 +66,19 @@ body {
   border-radius: 10px;
   padding: 4em;
 }
+.services .online__reading h3 {
+  margin: 1.5em;
+  font-size: 1.5em;
+}
+.services .online__reading h2 {
+  font-size: 2rem;
+}
 .services .online__reading__content {
   font-size: 1em;
 }
 .services .online__reading p {
   font-size: 1em;
+  margin: 1.5em 0;
 }
 
 .shope {
@@ -74,7 +86,7 @@ body {
   text-align: center;
   background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../../../images/pexels-cottonbro-studio-4865737.jpg);
 }
-o .shope__image {
+.shope__image {
   width: 100%;
   border-radius: 2em;
 }
@@ -89,21 +101,23 @@ o .shope__image {
 .shope__content__right {
   width: 80vw;
 }
+.shope__content__right h3 {
+  margin: 1em;
+}
 .shope__content__right form {
   padding: 2em;
   border-radius: 2em;
 }
 .shope__content__right form button {
-  padding: 2em;
-  border-radius: 2em;
+  padding: 1.5em 2em;
+  border-radius: 1em;
   background-color: #05bfdb;
 }
 
 .direction {
   background-color: #0a4d68;
-  padding-bottom: 2em;
   text-align: center;
-  padding-top: 2em;
+  padding: 3em;
   color: white;
 }
 .direction iframe {
@@ -114,9 +128,12 @@ o .shope__image {
   font-size: 1em;
   padding-bottom: 2em;
 }
+.direction h4 {
+  margin: 2em;
+}
 
 .detail__container {
-  background-image: url("../../../images/john-schnobrich-2FPjlAyMQTA-unsplash.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../images/john-schnobrich-2FPjlAyMQTA-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -136,10 +153,11 @@ o .shope__image {
 }
 .detail__container__left h1 {
   font-size: 4em;
+  text-align: center;
 }
 .detail__container__left button {
-  padding: 2em;
-  border-radius: 2em;
+  padding: 1.5em 3em;
+  border-radius: 1em;
   background-color: #05BFDB;
 }
 .detail__container div {
@@ -244,6 +262,10 @@ input {
 .home__company h2 {
   padding: 1em;
 }
+.home button {
+  margin: 3em 0;
+  font-size: 1.5rem;
+}
 
 .about {
   margin: 5em 0;
@@ -325,7 +347,7 @@ input {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../../../images/shop3.webp");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../../../images/shop3.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -344,6 +366,18 @@ input {
   flex-direction: row;
   text-align: center;
   padding-top: 1em;
+}
+.shop__container__book--1 h3 {
+  margin: 1em;
+}
+.shop__container__book--2 h3 {
+  margin: 1em;
+}
+.shop__container__book--3 h3 {
+  margin: 1em;
+}
+.shop__container__book--4 h3 {
+  margin: 1em;
 }
 .shop__search form {
   border-radius: 10px;

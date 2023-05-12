@@ -4,6 +4,7 @@
 .nav{
     &__container{
         @include flex(space-between,center);
+
     
     div{
         img{

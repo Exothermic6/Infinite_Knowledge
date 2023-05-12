@@ -11,6 +11,10 @@
     font-size: 1em;
     padding-bottom: 2em;
   }
+  h1{
+    font-size: 2rem;
+    margin:1em 0;
+  }
 
   @include flex(space-between, center);
 
@@ -28,11 +32,20 @@
       border-radius: 10px;
       padding: 4em;
     }
+    h3{
+      margin:1.5em;
+      font-size:1.5em;
+    }
+    h2{
+      font-size: 2rem;
+    }
     &__content {
       font-size: 1em;
     }
+   
     p {
       font-size: 1em;
+      margin:1.5em 0;
     }
   }
 }
@@ -40,7 +53,7 @@
   padding-top: 2em;
   text-align: center;
   background-image:linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url(../../../images/pexels-cottonbro-studio-4865737.jpg);
-  o
+  
   &__image {
     width: 100%;
     border-radius: 2em;
@@ -51,12 +64,15 @@
     font-size: 2em;
     &__right {
       width: 80vw;
+      h3{
+        margin:1em;
+      }
       form {
         padding: 2em;
         border-radius: 2em;
         button {
-          padding: 2em;
-          border-radius: 2em;
+          padding:1.5em 2em;
+          border-radius:1em;
           background-color: #05bfdb;
         }
       }
@@ -65,9 +81,9 @@
 }
 .direction {
   background-color: #0a4d68;
-  padding-bottom: 2em;
+  // padding-bottom: 2em;
   text-align: center;
-  padding-top: 2em;
+  padding:3em;
   color: white;
   iframe {
     width: 100%;
@@ -76,5 +92,8 @@
   &__content {
     font-size: 1em;
     padding-bottom: 2em;
+  }
+  h4{
+    margin:2em;
   }
 }

@@ -3,7 +3,7 @@
 
 
 .detail__container {
-  background-image: url("../../../images/john-schnobrich-2FPjlAyMQTA-unsplash.jpg");
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../../../images/john-schnobrich-2FPjlAyMQTA-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -20,10 +20,11 @@
   &__left{
     h1{
     font-size: 4em;
+    text-align: center;
     }
     button{
-      padding: 2em;
-      border-radius: 2em;
+      padding:1.5em 3em;
+      border-radius: 1em;
       background-color: #05BFDB;
     }
   }
